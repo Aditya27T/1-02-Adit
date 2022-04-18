@@ -24,7 +24,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view ('About',[
         "title" => "About",
-        "nama" => "Aditya Eka R",
+        "nama" => "Aditya Eka Rahmadani",
         "email" => "aditpoetra25@gmail.com",
         "gambar" => "adittt.jfif"
     ]);
